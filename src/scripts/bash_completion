@@ -47,7 +47,7 @@ _create_ap() {
             )
             ;;
         -w)
-            opts="1 2 1+2 3"
+            opts="1 2 1+2"
             ;;
         -n)
             # No Options
