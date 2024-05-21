@@ -156,6 +156,9 @@ _create_ap() {
         --config)
             _use_filedir && return 0
             ;;
+        --hostdir)
+            _use_filedir && return 0
+            ;;
         -g)
             # Not going to implement
             ;;
